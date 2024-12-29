@@ -8,7 +8,7 @@ switch (remainder) {
   case 1:
     console.log("It is not divisible because the remainder is 1");
     break;
-  case 2:
+  default:
     console.log("It is not divisible because the remainder is 2");
     break;
 }

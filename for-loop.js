@@ -1,7 +1,7 @@
 let sum = 0;
 let str = '';
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; 1 <= 20; i++) {
     // str = str + i + ' ';
     sum = sum + i;  
 }

@@ -2,20 +2,20 @@ const grade = "B";
 
 switch (grade) {
   case "A":
-    console.log("Excellent! You scored an A.");
+    console.log("Excellent");
     break;
   case "B":
-    console.log("Well done! You scored a B.");
+    console.log("Good");
     break;
   case "C":
-    console.log("Good effort! You scored a C.");
+    console.log("Average");
     break;
   case "D":
-    console.log("You passed, but there's room for improvement.");
+    console.log("Below Average");
     break;
   case "F":
-    console.log("You failed. Better luck next time.");
+    console.log("Fail");
     break;
   default:
-    console.log("Invalid grade.");
+    console.log("Invalid grade");
 }

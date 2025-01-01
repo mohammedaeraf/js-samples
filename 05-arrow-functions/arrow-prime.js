@@ -10,4 +10,5 @@ let isPrime = (n) => {
   prime == true ? console.log("prime") : console.log("not prime");
 };
 
-isPrime(14);
+isPrime(13);  //outputs : prime
+isPrime(15);  //outputs : not prime

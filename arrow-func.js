@@ -18,7 +18,7 @@ areaRect(10,20); // calling arrow function
     
 
 
-// arrow function to calculate square
+// arrow function to calculate Factorial
 let calcFact = (n) => {
   let fact = 1;
   for (let i = 2; i <= n; i++) {

@@ -1,8 +1,9 @@
-## **Assignment - Arrays 2**
+## Assignment 2 on Arrays
 
 ---
+### **Problem 1: Factorial of Numbers**  
 
-### **Problem 1: Factorial of Numbers**
+#### Create an array containing 5 numbers. Use a loop to print factorial of all the 5 numbers. Use a function to calculate factorial.  
 
 #### **Sample Input:**
 ```python
@@ -22,6 +23,8 @@ Factorial of 7 is 5040
 
 ### **Problem 2: Print Names in Reverse Order**
 
+#### Create an array containing 5 names. Use a loop to print the names in reverse order.  
+
 #### **Sample Input:**
 ```python
 names = ["Alice", "Bob", "Charlie", "David", "Eve"]
@@ -40,6 +43,8 @@ Alice
 
 ### **Problem 3: Print Numbers Greater Than 5**
 
+#### Create an array containing 5 numbers. Use a loop to print the numbers that are greater than 5.
+
 #### **Sample Input:**
 ```python
 numbers = [3, 6, 8, 2, 9]
@@ -53,8 +58,9 @@ numbers = [3, 6, 8, 2, 9]
 ```
 
 ---
+### **Problem 4: Check if Numbers are Prime**  
 
-### **Problem 4: Check if Numbers are Prime**
+#### Create an array containing 5 numbers. Use a loop to print for each number if it's prime or not. Use a function to check if a number is prime.  
 
 #### **Sample Input:**
 ```python

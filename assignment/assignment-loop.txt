@@ -1,0 +1,14 @@
+Assignment on Loops  
+
+1. Print Fib in one line
+OUTPUT - First 10 fibonacci numbers are 1, 1, 2, 3...
+
+2. Print design below
+*
+**
+***
+****
+*****
+
+3. Print factorial of a number
+5! = 1 * 2 * 3 * 4 * 5 = 120

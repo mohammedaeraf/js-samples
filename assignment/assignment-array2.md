@@ -1,8 +1,4 @@
-Here’s the formatted content suitable for exporting to PDF:
-
----
-
-## **Programming Assignment**
+## **Assignment - Arrays 2**
 
 ---
 

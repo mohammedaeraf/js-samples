@@ -1,6 +1,5 @@
 let fruits = ['apple', 'banana', 'mango', 'orange', 'grapes'];
 
-
 // push function - add element at the end of the array
 fruits.push('kiwi');
 fruits.push('papaya');

@@ -1,4 +1,4 @@
-
+// determines if a number is prime and prints
 function isPrime(n) {
     let prime = true; // let's assume that number is prime
 
@@ -16,4 +16,4 @@ function isPrime(n) {
     }
 }
 
-isPrime(13);
+isPrime(10);

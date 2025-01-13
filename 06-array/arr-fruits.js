@@ -1,3 +1,6 @@
+// Initialize an array with some fruits
+let fruits = ['apple', 'banana', 'mango', 'orange', 'grapes'];
+
 // Output the entire fruits array to the console
 console.log(fruits);
 

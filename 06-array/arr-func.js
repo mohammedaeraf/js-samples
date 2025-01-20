@@ -1,38 +1,16 @@
+// Initialize an array with some fruits
 let fruits = ['apple', 'banana', 'mango', 'orange', 'grapes'];
 
 // push function - add element at the end of the array
-fruits.push('kiwi');
-fruits.push('papaya');
-console.log(fruits);
+fruits.push('kiwi'); // adds 'kiwi' to the end of the array
+fruits.push('papaya'); // adds 'papaya' to the end of the array
+console.log(fruits); // outputs the updated array with 'kiwi' and 'papaya'
 
 // pop function - remove the last element from the array
-let lastFruit = fruits.pop();
-console.log(lastFruit);
-console.log(fruits);
+let lastFruit = fruits.pop(); // removes 'papaya' from the end of the array
+console.log(lastFruit); // outputs 'papaya'
+console.log(fruits); // outputs the updated array without 'papaya'
 
 // unshift function - add element at the beginning of the array
-fruits.unshift('watermelon');
-console.log(fruits);
-
-// shift function - remove the first element from the array
-let firstFruit = fruits.shift();
-console.log(firstFruit);
-console.log(fruits);
-
-// indexOf function - find the index of the element in the array
-let position = fruits.indexOf('mango');
-console.log(position);
-
-// includes function - check if the element is present in the array
-console.log(fruits.includes('banana'));
-
-// slice function - get the part of the array
-let newFruits = fruits.slice(1, 4);
-console.log(newFruits);
-
-// concat function - merge two arrays
-let students1 = ['Shawoor', 'Suhaim', 'Mugni'];
-let students2 = ['Mohsin', 'Arshad Shaikh', 'Arshad Syed', 'Imran Syed'];
-let allStudents = students1.concat(students2);
-console.log(allStudents);
-
+fruits.unshift('watermelon'); // adds 'watermelon' to the beginning of the array
+console.log(fruits); // outputs the updated array with 'watermelon' at the beginning

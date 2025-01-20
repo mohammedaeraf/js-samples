@@ -1,27 +1,25 @@
 // Define a class
 class Car {
   // properties
-  brand;
-  model;
-  year;
+  brand; // Property: brand of the car
+  model; // Property: model of the car
+  year;  // Property: year of the car
 
+  // Constructor method to initialize the properties
   constructor(br, mo, yr) {
-    this.brand = br; // Property: brand of the car
-    this.model = mo; // Property: model of the car
-    this.year = yr;
+    this.brand = br; // Initialize brand
+    this.model = mo; // Initialize model
+    this.year = yr;  // Initialize year
   }
 
+  // Method to display the details of the car
   displayDetails() {
-    console.log(`This car is a ${this.brand} ${this.model} ${this.year}.`);
+    console.log(`This car is a ${this.brand} ${this.model} ${this.year}.`); // Log the car details
   }
-
 }
 
 // Create an object of the class
-let myCar = new Car("Toyota", "Corolla", "2025");
-let car2 = new Car("BMW", "X5", "2021");
+let myCar = new Car("Toyota", "Corolla", "2025"); // Create a car with brand "Toyota", model "Corolla", and year "2025"
 
-// Call the method to display car details
-myCar.displayDetails();
-car2.displayDetails();
-
+// Display the details of the car
+myCar.displayDetails(); // Call the method to display the car details

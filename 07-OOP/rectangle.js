@@ -1,25 +1,23 @@
 // Define a class
 class Rectangle {
-    constructor(length, width) {
-      this.length = length; // Property: length of the rectangle
-      this.width = width;   // Property: width of the rectangle
-    }
-  
-    calculateArea() {
-      let area = this.length * this.width;
-      return area;
-    }
-  
-    calculatePerimeter() {
-      let perimeter = 2 * (this.length + this.width);
-      return perimeter;
-    }
+  // Constructor method to initialize the properties
+  constructor(length, width) {
+    this.length = length; // Property: length of the rectangle
+    this.width = width;   // Property: width of the rectangle
   }
-  
-  // Create an object of the class
-  const rect = new Rectangle(10, 5);
-  
-  // Perform calculations
-  console.log(`Area: ${rect.calculateArea()}`);        // Area: 50
-  console.log(`Perimeter: ${rect.calculatePerimeter()}`); // Perimeter: 30
-  
+
+  // Method to calculate the area of the rectangle
+  calculateArea() {
+    let area = this.length * this.width; // Area formula: length * width
+    return area; // Return the calculated area
+  }
+
+  // Method to calculate the perimeter of the rectangle
+  calculatePerimeter() {
+    let perimeter = 2 * (this.length + this.width); // Perimeter formula: 2 * (length + width)
+    return perimeter; // Return the calculated perimeter
+  }
+}
+
+// Create an object of the class
+const rect = new Rectangle(10, 5); // Create a rectangle with length 10 and width 5

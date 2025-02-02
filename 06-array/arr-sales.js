@@ -1,8 +1,12 @@
 // Initialize an empty array to store sales amounts
 let sales = [];
+let lastSales2 = sales.pop();
+console.log(lastSales2);
 
 // Add sales amounts to the array using push and unshift
 sales.push(1000, 2000, 3000); // adds 1000, 2000, 3000 to the end of the array
+sales.push("hello");
+sales.push("hello");
 sales.unshift(500); // adds 500 to the beginning of the array
 
 // Remove the last element from the array and store it in lastSales
